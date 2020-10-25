@@ -1,0 +1,104 @@
+{
+  "configVersion": 1,
+  "timestamp": 1603654537576,
+  "index": "https://adlouniahmad-dev.github.io/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://adlouniahmad-dev.github.io/favicon.ico",
+        "https://adlouniahmad-dev.github.io/index.html",
+        "https://adlouniahmad-dev.github.io/main.7a941be2b5eea98f4e0e.js",
+        "https://adlouniahmad-dev.github.io/manifest.webmanifest",
+        "https://adlouniahmad-dev.github.io/polyfills.8a842d8d8b917bf59410.js",
+        "https://adlouniahmad-dev.github.io/runtime.acf0dec4155e77772545.js",
+        "https://adlouniahmad-dev.github.io/scripts.0fefda611178eb453122.js",
+        "https://adlouniahmad-dev.github.io/styles.023f787c18984023f9ad.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://adlouniahmad-dev.github.io/assets/icons/icon-128x128.png",
+        "https://adlouniahmad-dev.github.io/assets/icons/icon-144x144.png",
+        "https://adlouniahmad-dev.github.io/assets/icons/icon-152x152.png",
+        "https://adlouniahmad-dev.github.io/assets/icons/icon-180x180.png",
+        "https://adlouniahmad-dev.github.io/assets/icons/icon-192x192.png",
+        "https://adlouniahmad-dev.github.io/assets/icons/icon-384x384.png",
+        "https://adlouniahmad-dev.github.io/assets/icons/icon-512x512.png",
+        "https://adlouniahmad-dev.github.io/assets/icons/icon-72x72.png",
+        "https://adlouniahmad-dev.github.io/assets/icons/icon-96x96.png",
+        "https://adlouniahmad-dev.github.io/assets/img/domainfinder-logo.png",
+        "https://adlouniahmad-dev.github.io/assets/img/electronicmasbaha-logo.png",
+        "https://adlouniahmad-dev.github.io/assets/img/lebphones-logo.png",
+        "https://adlouniahmad-dev.github.io/assets/img/logo.png",
+        "https://adlouniahmad-dev.github.io/assets/img/me.png",
+        "https://adlouniahmad-dev.github.io/assets/img/megadeals-logo.png",
+        "https://adlouniahmad-dev.github.io/assets/img/mmserver-logo.png",
+        "https://adlouniahmad-dev.github.io/assets/img/simphones-logo.png",
+        "https://adlouniahmad-dev.github.io/assets/img/statussaver-logo.png",
+        "https://adlouniahmad-dev.github.io/assets/js/script.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://adlouniahmad-dev.github.io/assets/icons/icon-128x128.png": "b2c636a8340546c88bf4035c815aeb0c607a0eca",
+    "https://adlouniahmad-dev.github.io/assets/icons/icon-144x144.png": "476c12b92e0ca8e3880b07ffa8ebc5304e07c826",
+    "https://adlouniahmad-dev.github.io/assets/icons/icon-152x152.png": "0ae9d42c89d5d41b9227f66170165bbb9ea0851f",
+    "https://adlouniahmad-dev.github.io/assets/icons/icon-180x180.png": "ddd5857fd5541026d85236f6d5adf4f0b370e50a",
+    "https://adlouniahmad-dev.github.io/assets/icons/icon-192x192.png": "85ac6eeda18b930f98bc31b0a99fd690ea6a0f8a",
+    "https://adlouniahmad-dev.github.io/assets/icons/icon-384x384.png": "d40f8f1386f14d936da03d09ea997422b369b0ac",
+    "https://adlouniahmad-dev.github.io/assets/icons/icon-512x512.png": "60da523ec4c11deb833878524603a44f00243400",
+    "https://adlouniahmad-dev.github.io/assets/icons/icon-72x72.png": "f9f6126fd9f8079bc8a537c0275e87370492e0e0",
+    "https://adlouniahmad-dev.github.io/assets/icons/icon-96x96.png": "0bdd79797792fa6a2b0a9b4db404b3dfa266e6a2",
+    "https://adlouniahmad-dev.github.io/assets/img/domainfinder-logo.png": "355d47f3265e131924bc47cad657835e79dad59d",
+    "https://adlouniahmad-dev.github.io/assets/img/electronicmasbaha-logo.png": "9da7ab515450eb70d83e1712b67f6bb9c3f93d23",
+    "https://adlouniahmad-dev.github.io/assets/img/lebphones-logo.png": "362f5dcf6d2d927e830f092c940f932bd9c9a6fe",
+    "https://adlouniahmad-dev.github.io/assets/img/logo.png": "3a39e74fc4640295583e6aa1818367bf79c28273",
+    "https://adlouniahmad-dev.github.io/assets/img/me.png": "905772f955e40d46f8e032879b5f24974faee291",
+    "https://adlouniahmad-dev.github.io/assets/img/megadeals-logo.png": "7f0e62ae331e279c0a7591f1721fbece7e4dad5d",
+    "https://adlouniahmad-dev.github.io/assets/img/mmserver-logo.png": "4ee94a74921e1551140def0cbc7293679c136338",
+    "https://adlouniahmad-dev.github.io/assets/img/simphones-logo.png": "e30583add566d6637a78d7c0041b7b2d09bda0c7",
+    "https://adlouniahmad-dev.github.io/assets/img/statussaver-logo.png": "547b7f733159183d3a8a13a5521208790a97f331",
+    "https://adlouniahmad-dev.github.io/assets/js/script.js": "05ffef55da8db7453577796c45bbee54599f14a2",
+    "https://adlouniahmad-dev.github.io/favicon.ico": "67a98d36a750454d375c8492c944e3f91c6419f5",
+    "https://adlouniahmad-dev.github.io/index.html": "e83f724a4f4cb999457cf56baabe64671a2e8673",
+    "https://adlouniahmad-dev.github.io/main.7a941be2b5eea98f4e0e.js": "31262a2580b65525c4cb897984d2cd64e4099c0b",
+    "https://adlouniahmad-dev.github.io/manifest.webmanifest": "84073cadde0c7293aa36e45319c0ce21c2a40df5",
+    "https://adlouniahmad-dev.github.io/polyfills.8a842d8d8b917bf59410.js": "dbc502f030c7bb83c7caa1feee7aff990831f7d9",
+    "https://adlouniahmad-dev.github.io/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://adlouniahmad-dev.github.io/scripts.0fefda611178eb453122.js": "ba5f21dd04f15ebde917fbc838cba97b42e7b017",
+    "https://adlouniahmad-dev.github.io/styles.023f787c18984023f9ad.css": "7a3da01a05cd053021e5f889f181934cb4582832"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
