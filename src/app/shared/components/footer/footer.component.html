@@ -1,0 +1,14 @@
+<footer class="py-5rem">
+    <div class="container">
+        <div class="text-center mb-4">
+            <span>Copyright &copy; 2020 All rights reserved | Made with <fa-icon class="text-danger" [icon]="icons.heart"></fa-icon> by Me</span>
+        </div>
+        <div class="icons text-center">
+            <span class="icon-item-container" *ngFor="let socialNetwork of socialNetworks">
+                <a href="{{ socialNetwork.link }}" rel="noopener" class="icon-item {{ socialNetwork.name }}" target="_blank">
+                    <fa-icon [icon]="icons[socialNetwork.name]" [fixedWidth]="true"></fa-icon>
+                </a>
+            </span>
+        </div>
+    </div>
+</footer>

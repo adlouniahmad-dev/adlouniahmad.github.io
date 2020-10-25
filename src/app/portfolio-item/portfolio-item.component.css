@@ -1,0 +1,39 @@
+.main-section {
+    padding: 120px 0 5rem 0;
+}
+
+.product-logo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 200px;
+    border-radius: 5px;
+    border: 3px solid #fafafa;
+    flex: 0 0 300px;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.link {
+    margin-right: 8px;
+}
+
+.badge-primary {
+    background-color: var(--color-lighter-blue);
+}
+
+@media screen and (min-width: 768px) {
+
+    .product-logo {
+        margin-bottom: 0;
+    }
+
+    .info {
+        margin-left: 5rem;
+    }
+}

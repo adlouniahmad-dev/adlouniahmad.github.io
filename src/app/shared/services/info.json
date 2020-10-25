@@ -1,0 +1,261 @@
+{
+    "info": {
+        "name": "Ahmad Adlouni",
+        "position": "A Full Stack Web Developer",
+        "about": [
+            "I'm a Freelance Full Stack Web Developer having an experience in designing and developing Websites and Web Applications.",
+            "I hold a BSc degree in Computer Science from Beirut Arab University (ABET Accredetation), ranked twice for first place for Fall 2016 - 2017 and Fall 2017 - 2018 and graduated with a cumulative GPA 3.76/4.",
+            "I participated in VEX Robotics for two consecutive years 2017 and 2018 and in LCPC (Lebanese Collegiate Programming Contest) in 2016.",
+            "I took an internship at IDS (Integrated Digital Systems) and at Vanrise Solutions. Worked as Frontend Developer at Bluering and a Full-Stack developer with a startup. Currently I'm working as a freelance and I'm always interested in a challenge.",
+            "Technologies, Languages and Frameworks I worked in: <strong>Java</strong>, <strong>Android</strong>, <strong>ReactJs</strong>, <strong>Python</strong>, <strong>Flask Micro-framework</strong>, <strong>JavaScript</strong>, <strong>jQuery</strong>, <strong>Angular</strong>, <strong>PHP</strong>, <strong>MySQL</strong>, <strong>Microsft SQL Server</strong>, <strong>C#</strong>, <strong>Entity Framework Core</strong>, <strong>Git</strong>, <strong>Symfony Framework</strong> and <strong>Slim Micro-framework</strong>."
+        ]
+    },
+    "contact": [
+        {
+            "key": "Email",
+            "value": "adlouniahmad@outlook.com"
+        },
+        {
+            "key": "Phone",
+            "value": "+961 71 387 643"
+        },
+        {
+            "key": "Address",
+            "value": "Saida, Lebanon"
+        }
+    ],
+    "categories": [
+        {
+            "name": "All",
+            "value": "*",
+            "active": true
+        },
+        {
+            "name": "Web",
+            "value": "web",
+            "active": false
+        },
+        {
+            "name": "Mobile",
+            "value": "mobile",
+            "active": false
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "leb-phones",
+            "name": "LebPhones",
+            "tags": "web",
+            "languages": "Slim PHP / PWA",
+            "featuredImage": "/assets/img/lebphones-logo.png",
+            "link": "http://lebphones.com",
+            "details": {
+                "description": [
+                    "A website that displays the wholesale prices of various mobile phones in Lebanon."
+                ],
+                "techDescription": [
+                    "This website was written in PHP using Slim Framework and added the PWA - Progressive Web Apps - capability to it."
+                ],
+                "tags": [
+                    "HTML",
+                    "CSS",
+                    "PHP",
+                    "Slim Framework",
+                    "JavaScript",
+                    "PWA"
+                ],
+                "links": [
+                    {
+                        "name": "Go to Website",
+                        "link": "http://lebphones.com"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "sim-phones",
+            "name": "Sim-Phones",
+            "tags": "web",
+            "languages": "Angular / Slim PHP / PWA",
+            "featuredImage": "/assets/img/simphones-logo.png",
+            "link": "https://app.sim-phones.com",
+            "details": {
+                "description": [
+                    "Sim-Phones is a Web Application that allows people to buy virtual numbers from various countries (Russia, Germany, etc...) to use it in different services, such as: WhatsApp, Facebook, Viber, etc..."
+                ],
+                "techDescription": [
+                    "This application consists of a Main website, PWA app and a Dashboard",
+                    "All Web Services are written in PHP using Slim Framework, the PWA App and Dashboard are developed using Angular."
+                ],
+                "tags": [
+                    "HTML",
+                    "CSS",
+                    "PHP",
+                    "Slim Framework",
+                    "Web APIs",
+                    "JavaScript",
+                    "Angular",
+                    "Firebase Cloud Messaging"
+                ],
+                "links": [
+                    {
+                        "name": "Go to Website",
+                        "link": "https://sim-phones.com"
+                    },
+                    {
+                        "name": "Go to App",
+                        "link": "https://app.sim-phones.com"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "mms-server",
+            "name": "MMS Server",
+            "tags": "mobile",
+            "languages": "Android Java",
+            "featuredImage": "/assets/img/mmserver-logo.png",
+            "details": {
+                "description": [
+                    "An android application which acts as a server for the MMService application.",
+                    "This application server handles the operations for sending dollars and days to touch and alfa mobile numbers from the MMService application."
+                ],
+                "techDescription": [
+                    "This application was written in Java language."
+                ],
+                "tags": [
+                    "Java",
+                    "Android",
+                    "Firebase",
+                    "Firestore"
+                ]
+            }
+        },
+        {
+            "id": "mega-deals",
+            "name": "MegaDeals",
+            "tags": "web",
+            "languages": "Angular / Slim PHP",
+            "featuredImage": "/assets/img/megadeals-logo.png",
+            "link": "https://www.megadeals.world",
+            "details": {
+                "description": [
+                    "A website that displays deals from different online stores such as AliExpress."
+                ],
+                "techDescription": [
+                    "The Web App consists of a Main page and a Dashboard.",
+                    "The frontend of the Main page and the Dashboard were developed in Angular and consume Web APIs which are written in PHP using Slim Framework."
+                ],
+                "tags": [
+                    "HTML",
+                    "CSS",
+                    "PHP",
+                    "Slim Framework",
+                    "Web APIs",
+                    "JavaScript",
+                    "Angular"
+                ],
+                "links": [
+                    {
+                        "name": "Go to Website",
+                        "link": "https://www.megadeals.world"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "status-saver",
+            "name": "Status Saver",
+            "tags": "mobile",
+            "languages": "Android Java",
+            "featuredImage": "/assets/img/statussaver-logo.png",
+            "details": {
+                "description": [
+                    "Status Saver application lets you save photo images and videos from WhatsApp application and it also allows you to share the media directly from the application to yor friends."
+                ],
+                "techDescription": [
+                    "This application was written in Java language and uses third party libraries such as Picasso."
+                ],
+                "tags": [
+                    "Java",
+                    "Android"
+                ],
+                "links": [
+                    {
+                        "name": "Download App",
+                        "link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.electronicmasbaha"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "domain-finer",
+            "name": "Domain Finder",
+            "tags": "mobile",
+            "languages": "Android Java",
+            "featuredImage": "/assets/img/domainfinder-logo.png",
+            "details": {
+                "description": [
+                    "An android application that lets you search for a domain name to check its availablity and its price."
+                ],
+                "techDescription": [
+                    "This application was written in Java language and uses GoDaddy Domains APIs."
+                ],
+                "tags": [
+                    "Java",
+                    "Android",
+                    "Retrofit"
+                ],
+                "links": [
+                    {
+                        "name": "Download App",
+                        "link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.domainfinder"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "electronic-masbaha",
+            "name": "المسبحة الإلكترونية",
+            "tags": "mobile",
+            "languages": "Android Java",
+            "featuredImage": "/assets/img/electronicmasbaha-logo.png",
+            "details": {
+                "description": [
+                    "An android application that lets you count your prayers on phone."
+                ],
+                "techDescription": [
+                    "This application was written in Java language."
+                ],
+                "tags": [
+                    "Java",
+                    "Android"
+                ],
+                "links": [
+                    {
+                        "name": "Download App",
+                        "link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.electronicmasbaha"
+                    }
+                ]
+            }
+        }
+    ],
+    "social": [
+        {
+            "name": "facebook",
+            "link": "https://www.facebook.com/adlouni.ahmad/"
+        },
+        {
+            "name": "instagram",
+            "link": "https://www.instagram.com/ahmad_adlouni/"
+        },
+        {
+            "name": "linkedIn",
+            "link": "https://www.linkedin.com/in/adlouni-ahmad/"
+        },
+        {
+            "name": "github",
+            "link": "https://www.github.com/adlouniahmad-dev"
+        }
+    ]
+}

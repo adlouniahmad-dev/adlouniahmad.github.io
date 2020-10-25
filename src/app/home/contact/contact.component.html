@@ -1,0 +1,80 @@
+<section id="contact" class="py-5rem pb-120px bg-light-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 class="underline-center text-center mb-5" data-aos="fade-down"><span
+                        class="font-weight-lighter">Get</span> In Touch</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row overflow-hidden">
+            <div class="col-md-7 mb-5" data-aos="fade-right">
+                <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" *ngIf="!showSuccess else success">
+                    <h4 class="mb-5">Get In Touch</h4>
+                    <div class="form-group">
+                        <label for="name" class="d-none">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" formControlName="name" required
+                            [attr.disabled]="showLoader ? true : null" placeholder="Your Name *"
+                            [ngClass]="{'is-invalid': form.name.errors && isSubmitted}">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="d-none">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" formControlName="email"
+                            required [attr.disabled]="showLoader ? true : null" placeholder="Your Email *"
+                            [ngClass]="{'is-invalid': form.email.errors && isSubmitted}">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="d-none">Message</label>
+                        <textarea class="form-control" name="message" id="message" rows="4" name="message"
+                            formControlName="message" required [attr.disabled]="showLoader ? true : null"
+                            placeholder="Write a Message *"
+                            [ngClass]="{'is-invalid': form.message.errors && isSubmitted}"></textarea>
+                    </div>
+                    <div class="mt-4">
+                        <div class="loader d-flex justify-content-center" *ngIf="showLoader">
+                            <div class="lds-ellipsis">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary text-uppercase px-4 py-3" *ngIf="!showLoader">Send
+                            Message</button>
+                    </div>
+                </form>
+                <ng-template #success>
+                    <div class="success-checkmark">
+                        <div class="check-icon">
+                            <span class="icon-line line-tip"></span>
+                            <span class="icon-line line-long"></span>
+                            <div class="icon-circle"></div>
+                            <div class="icon-fix"></div>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <span>Your message sent successfully<br>I'll be in touch shortly</span>
+                    </div>
+                </ng-template>
+            </div>
+            <div class="col-md-5 pl-md-5" data-aos="fade-left">
+                <h4 class="mb-5">My Contact Details</h4>
+                <ul class="site-contact-details font-weight-lighter">
+                    <li>
+                        <span class="text-uppercase">Email</span>
+                        adlouniahmad@outlook.com
+                    </li>
+                    <li>
+                        <span class="text-uppercase">Phone</span>
+                        +961 71 387 643
+                    </li>
+                    <li>
+                        <span class="text-uppercase">Address</span>
+                        Saida, Lebanon
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

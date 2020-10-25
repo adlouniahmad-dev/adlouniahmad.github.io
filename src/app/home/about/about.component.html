@@ -1,0 +1,17 @@
+<section id="about" class="py-5rem bg-light-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 d-none d-sm-block position-relative" data-aos="zoom-in">
+                <div class="terminal d-none d-lg-flex">
+                    <fa-icon [icon]="icons.terminal" [fixedWidth]="true"></fa-icon>
+                </div>
+            </div>
+            <div class="col-lg-7 col-sm-12 overflow-hidden">
+                <h3 class="underline" data-aos="fade-right">About Me</h3>
+                <div class="mt-45px font-weight-lighter" data-aos="fade-left">
+                    <p *ngFor="let description of info.about" [innerHtml]="description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
