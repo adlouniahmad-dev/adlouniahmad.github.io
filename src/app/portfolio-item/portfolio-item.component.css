@@ -10,7 +10,6 @@
     height: 200px;
     border-radius: 5px;
     border: 3px solid #fafafa;
-    flex: 0 0 300px;
     margin-bottom: 20px;
 }
 
@@ -31,6 +30,7 @@
 
     .product-logo {
         margin-bottom: 0;
+        flex: 0 0 300px;
     }
 
     .info {

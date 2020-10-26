@@ -3,8 +3,8 @@
         "name": "Ahmad Adlouni",
         "position": "A Full Stack Web Developer",
         "about": [
-            "I'm a Freelance Full Stack Web Developer having an experience in designing and developing Websites and Web Applications.",
-            "I hold a BSc degree in Computer Science from Beirut Arab University (ABET Accredetation), ranked twice for first place for Fall 2016 - 2017 and Fall 2017 - 2018 and graduated with a cumulative GPA 3.76/4.",
+            "I'm a Freelance Full Stack Web Developer having experience in designing and developing Websites and Web Applications.",
+            "I hold a BSc degree in Computer Science from Beirut Arab University (ABET Accredetation), ranked first place twice for two semesters in Fall 2016 - 2017 and Fall 2017 - 2018 and graduated with a cumulative GPA 3.76/4.",
             "I participated in VEX Robotics for two consecutive years 2017 and 2018 and in LCPC (Lebanese Collegiate Programming Contest) in 2016.",
             "I took an internship at IDS (Integrated Digital Systems) and at Vanrise Solutions. Worked as Frontend Developer at Bluering and a Full-Stack developer with a startup. Currently I'm working as a freelance and I'm always interested in a challenge.",
             "Technologies, Languages and Frameworks I worked in: <strong>Java</strong>, <strong>Android</strong>, <strong>ReactJs</strong>, <strong>Python</strong>, <strong>Flask Micro-framework</strong>, <strong>JavaScript</strong>, <strong>jQuery</strong>, <strong>Angular</strong>, <strong>PHP</strong>, <strong>MySQL</strong>, <strong>Microsft SQL Server</strong>, <strong>C#</strong>, <strong>Entity Framework Core</strong>, <strong>Git</strong>, <strong>Symfony Framework</strong> and <strong>Slim Micro-framework</strong>."
@@ -171,7 +171,7 @@
             "featuredImage": "/assets/img/statussaver-logo.png",
             "details": {
                 "description": [
-                    "Status Saver application lets you save photo images and videos from WhatsApp application and it also allows you to share the media directly from the application to yor friends."
+                    "Status Saver application lets you save photo images and videos from WhatsApp application and it also allows you to share the media directly from the application to your friends."
                 ],
                 "techDescription": [
                     "This application was written in Java language and uses third party libraries such as Picasso."
