@@ -196,7 +196,7 @@
             "featuredImage": "/assets/img/domainfinder-logo.png",
             "details": {
                 "description": [
-                    "An android application that lets you search for a domain name to check its availablity and its price."
+                    "An android application that lets you search for a domain name to check its availability and its price."
                 ],
                 "techDescription": [
                     "This application was written in Java language and uses GoDaddy Domains APIs."
