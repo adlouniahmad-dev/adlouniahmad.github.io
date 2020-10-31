@@ -189,7 +189,7 @@
             }
         },
         {
-            "id": "domain-finer",
+            "id": "domain-finder",
             "name": "Domain Finder",
             "tags": "mobile",
             "languages": "Android Java",
