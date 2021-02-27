@@ -209,9 +209,9 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
 }
 
-.typewritter>span {
+.typewritter > span {
     overflow: hidden;
-    width: 265px;
+    width: 200px;
     border-right: .15em solid var(--color-lighter-blue);
     white-space: nowrap;
     margin-right: auto;
@@ -815,7 +815,7 @@ label {
         width: 0
     }
     to {
-        width: 265px
+        width: 200px
     }
 }
 

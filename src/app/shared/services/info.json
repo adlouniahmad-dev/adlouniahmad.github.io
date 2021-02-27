@@ -1,12 +1,12 @@
 {
     "info": {
         "name": "Ahmad Adlouni",
-        "position": "A Full Stack Web Developer",
+        "position": "A Software Engineer",
         "about": [
-            "I'm a Freelance Full Stack Web Developer having experience in designing and developing Websites and Web Applications.",
+            "I'm a Software Engineer at VestaCare Inc. and a Freelance Full Stack Web Developer having experience in designing and developing Websites and Web Applications.",
             "I hold a BSc degree in Computer Science from Beirut Arab University (ABET Accredetation), ranked first place twice for two semesters in Fall 2016 - 2017 and Fall 2017 - 2018 and graduated with a cumulative GPA 3.76/4.",
             "I participated in VEX Robotics for two consecutive years 2017 and 2018 and in LCPC (Lebanese Collegiate Programming Contest) in 2016.",
-            "I took an internship at IDS (Integrated Digital Systems) and at Vanrise Solutions. Worked as Frontend Developer at Bluering and a Full-Stack developer with a startup. Currently I'm working as a freelance and I'm always interested in a challenge.",
+            "I took an internship at IDS (Integrated Digital Systems) and at Vanrise Solutions. Worked as Frontend Developer at Bluering and a Full-Stack developer with a startup. Currently I'm working at VestaCare Inc. as a Software Engineer and as a freelance in my free time.",
             "Technologies, Languages and Frameworks I worked in: <strong>Java</strong>, <strong>Android</strong>, <strong>ReactJs</strong>, <strong>Python</strong>, <strong>Flask Micro-framework</strong>, <strong>JavaScript</strong>, <strong>jQuery</strong>, <strong>Angular</strong>, <strong>PHP</strong>, <strong>MySQL</strong>, <strong>Microsft SQL Server</strong>, <strong>C#</strong>, <strong>Entity Framework Core</strong>, <strong>Git</strong>, <strong>Symfony Framework</strong> and <strong>Slim Micro-framework</strong>."
         ]
     },
@@ -42,6 +42,37 @@
         }
     ],
     "portfolio": [
+        {
+            "id": "ask",
+            "name": "ASK - Agile Sharing Knowledge",
+            "tags": "web",
+            "languages": "Angular / EF Core",
+            "featuredImage": "/assets/img/ask-logo.png",
+            "link": "https://www.dgitme.com/copy-of-automation-and-av-systems",
+            "details": {
+                "description": [
+                    "The project aims to spread knowledge among all the employees at all levels of the institution's sectors and departments, in order to raise the learning curve, spread the supportive institutional culture in a practical and systematic way, maximize the use of the knowledge and expertise in the organization which is a major element in promoting proactive knowledge."
+                ],
+                "techDescription": [
+                    "This web application was developed in Entity Framework Core Web API and Angular."
+                ],
+                "tags": [
+                    "HTML",
+                    "CSS",
+                    "EF Core",
+                    "C#",
+                    "TypeScript",
+                    "Angular",
+                    "Web APIs"
+                ],
+                "links": [
+                    {
+                        "name": "Go to Website",
+                        "link": "https://www.dgitme.com/copy-of-automation-and-av-systems"
+                    }
+                ]
+            }
+        },
         {
             "id": "leb-phones",
             "name": "LebPhones",
