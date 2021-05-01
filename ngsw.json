@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1619866660663,
+  "timestamp": 1619868168584,
   "index": "https://adlouniahmad-dev.github.io/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://adlouniahmad-dev.github.io/favicon.ico",
         "https://adlouniahmad-dev.github.io/index.html",
-        "https://adlouniahmad-dev.github.io/main.c2613d1c1664a93a1b39.js",
+        "https://adlouniahmad-dev.github.io/main.5a2ac0cafc4dcf679760.js",
         "https://adlouniahmad-dev.github.io/manifest.webmanifest",
         "https://adlouniahmad-dev.github.io/polyfills.8a842d8d8b917bf59410.js",
         "https://adlouniahmad-dev.github.io/runtime.acf0dec4155e77772545.js",
@@ -121,8 +121,8 @@
     "https://adlouniahmad-dev.github.io/assets/img/statussaver-logo.png": "547b7f733159183d3a8a13a5521208790a97f331",
     "https://adlouniahmad-dev.github.io/assets/js/script.js": "05ffef55da8db7453577796c45bbee54599f14a2",
     "https://adlouniahmad-dev.github.io/favicon.ico": "67a98d36a750454d375c8492c944e3f91c6419f5",
-    "https://adlouniahmad-dev.github.io/index.html": "ccbbc2e71a6fceaccaf50ab2af0790ee42edcab7",
-    "https://adlouniahmad-dev.github.io/main.c2613d1c1664a93a1b39.js": "18f6401e1ca74500ecfa9042f3934ed823d38e4a",
+    "https://adlouniahmad-dev.github.io/index.html": "4a4d2c90f3985d94c1a7202434f13255570b0891",
+    "https://adlouniahmad-dev.github.io/main.5a2ac0cafc4dcf679760.js": "f5c6f6f2ce06d914d87869e36d7f8cd5e1ba8726",
     "https://adlouniahmad-dev.github.io/manifest.webmanifest": "021d1da33f6ea9907852d38242dd03329cd7ce15",
     "https://adlouniahmad-dev.github.io/polyfills.8a842d8d8b917bf59410.js": "dbc502f030c7bb83c7caa1feee7aff990831f7d9",
     "https://adlouniahmad-dev.github.io/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
