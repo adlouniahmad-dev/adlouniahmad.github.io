@@ -54,7 +54,8 @@ a:hover {
     display: none;
 }
 
-a:not(.active):hover {
+a:not(.active):hover,
+.gallery-button:hover {
     color: inherit;
     opacity: .7;
 }

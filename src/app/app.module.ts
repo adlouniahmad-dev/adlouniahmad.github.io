@@ -3,6 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule, } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { CrystalLightboxModule } from '@crystalui/angular-lightbox';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -48,7 +49,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NgbModule,
     BrowserAnimationsModule,
     CarouselModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    CrystalLightboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

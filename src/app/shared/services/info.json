@@ -44,7 +44,7 @@
     "portfolio": [
         {
             "id": "ask",
-            "name": "ASK - Agile Sharing Knowledge",
+            "name": "ASK - Agile Share Knowledge",
             "tags": "web",
             "languages": "Angular / EF Core",
             "featuredImage": "/assets/img/ask-logo.png",
@@ -70,6 +70,12 @@
                         "name": "Go to Website",
                         "link": "https://www.dgitme.com/copy-of-automation-and-av-systems"
                     }
+                ],
+                "screenshots": [
+                    "/assets/img/ask-1.PNG",
+                    "/assets/img/ask-2.PNG",
+                    "/assets/img/ask-3.PNG",
+                    "/assets/img/ask-4.PNG"
                 ]
             }
         },
@@ -100,6 +106,11 @@
                         "name": "Go to Website",
                         "link": "http://lebphones.com"
                     }
+                ],
+                "screenshots": [
+                    "/assets/img/lebphones-1.PNG",
+                    "/assets/img/lebphones-2.PNG",
+                    "/assets/img/lebphones-3.PNG"
                 ]
             }
         },
@@ -137,6 +148,11 @@
                         "name": "Go to App",
                         "link": "https://app.sim-phones.com"
                     }
+                ],
+                "screenshots": [
+                    "/assets/img/simphones-1.JPG",
+                    "/assets/img/simphones-2.JPG",
+                    "/assets/img/simphones-3.JPG"
                 ]
             }
         },
@@ -191,6 +207,11 @@
                         "name": "Go to Website",
                         "link": "https://www.megadeals.world"
                     }
+                ],
+                "screenshots": [
+                    "/assets/img/megadeals-1.png",
+                    "/assets/img/megadeals-2.png",
+                    "/assets/img/megadeals-3.PNG"
                 ]
             }
         },
@@ -216,6 +237,11 @@
                         "name": "Download App",
                         "link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.statussaver"
                     }
+                ],
+                "screenshots": [
+                    "/assets/img/statussaver-1.png",
+                    "/assets/img/statussaver-2.png",
+                    "/assets/img/statussaver-3.png"
                 ]
             }
         },
@@ -242,6 +268,11 @@
                         "name": "Download App",
                         "link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.domainfinder"
                     }
+                ],
+                "screenshots": [
+                    "/assets/img/domainfinder-1.png",
+                    "/assets/img/domainfinder-2.png",
+                    "/assets/img/domainfinder-3.png"
                 ]
             }
         },
@@ -267,6 +298,11 @@
                         "name": "Download App",
                         "link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.electronicmasbaha"
                     }
+                ],
+                "screenshots": [
+                    "/assets/img/electronicmasbaha-1.png",
+                    "/assets/img/electronicmasbaha-2.png",
+                    "/assets/img/electronicmasbaha-3.png"
                 ]
             }
         }

@@ -1,11 +1,20 @@
-<!-- <adl-header></adl-header> -->
 <section class="main-section">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="d-flex flex-md-row flex-column">
-                    <div class="product-logo" [ngStyle]="{'background-image': 'url(' + product.featuredImage + ')'}"
-                        [title]="product.name" data-aos="fade-right">
+                    <div class="left-product-info">
+                        <div class="product-logo" [ngStyle]="{'background-image': 'url(' + product.featuredImage + ')'}"
+                            [title]="product.name" data-aos="fade-right" (click)="openGallery()">
+                        </div>
+                        <button class="gallery-button" (click)="openGallery()" *ngIf="product.details.screenshots">
+                            <fa-icon [icon]="expandIcon" [fixedWidth]="true"></fa-icon>
+                            Open Gallery
+                        </button>
+
+                        <div class="d-none" #galleryContainer lightbox-group *ngIf="product.details.screenshots">
+                            <img class="d-none" [counter]="true" *ngFor="let screenshot of product.details.screenshots" [src]="screenshot" lightbox>
+                        </div>
                     </div>
                     <div class="info" data-aos="fade-left">
                         <h3 class="underline">{{ product.name }}</h3>
@@ -14,7 +23,8 @@
                         </div>
                         <div class="description mb-4" *ngIf="product.details.links">
                             <h6>Links</h6>
-                            <a class="link" rel="noopener" href="{{ link.link }}" target="_blank" *ngFor="let link of product.details.links">{{ link.name }}</a>
+                            <a class="link" rel="noopener" href="{{ link.link }}" target="_blank"
+                                *ngFor="let link of product.details.links">{{ link.name }}</a>
                         </div>
                         <div class="description">
                             <h6>Tech info</h6>
@@ -30,7 +40,7 @@
         </div>
     </div>
 </section>
-<section class="py-5 bg-light-grey" *ngIf="product.details.screenshots">
+<section class="py-5 bg-light-grey d-none" *ngIf="product.details.screenshots">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -39,4 +49,3 @@
         </div>
     </div>
 </section>
-<!-- <adl-footer></adl-footer> -->
