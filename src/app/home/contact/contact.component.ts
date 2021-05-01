@@ -40,13 +40,13 @@ export class ContactComponent implements OnInit {
     this.showLoader = true;
     const { name, email, message } = this.contactForm.value;
     this.contactService.send(name, email, message)
-      .subscribe((response: any) => {
+      .subscribe((response: string) => {
         this.isSubmitted = false;
         this.showLoader = false;
-        if (response.success) {
+        if (response.includes('Thank You!')) {
           this.showSuccess = true;
         }
-      }, () => {
+      }, (e) => {
         this.isSubmitted = false;
         this.showLoader = false;
       });

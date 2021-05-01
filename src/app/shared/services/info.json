@@ -51,7 +51,8 @@
             "link": "https://www.dgitme.com/copy-of-automation-and-av-systems",
             "details": {
                 "description": [
-                    "The project aims to spread knowledge among all the employees at all levels of the institution's sectors and departments, in order to raise the learning curve, spread the supportive institutional culture in a practical and systematic way, maximize the use of the knowledge and expertise in the organization which is a major element in promoting proactive knowledge."
+                    "The project aims to spread knowledge among all the employees at all levels of the institution's sectors and departments, in order to raise the learning curve, spread the supportive institutional culture in a practical and systematic way, maximize the use of the knowledge and expertise in the organization which is a major element in promoting proactive knowledge.",
+                    "The application is available in English and Arabic languages."
                 ],
                 "techDescription": [
                     "This web application was developed in Entity Framework Core Web API and Angular."
