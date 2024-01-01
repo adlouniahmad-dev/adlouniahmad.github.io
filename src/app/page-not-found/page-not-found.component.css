@@ -1,12 +1,12 @@
 ._404 {
-    font-size: 8rem;
+	font-size: 8rem;
 }
 
 ._404 span {
-    color: var(--color-light-blue);
+	color: var(--color-light-blue);
 }
 
 a {
-    color: var(--color-light-blue);
-    text-decoration: none;
+	color: var(--color-light-blue);
+	text-decoration: none;
 }
