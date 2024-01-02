@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
 
-:root { 
+/* :root { 
 	--color-gray: #283442;
 	--color-light-gray: #fafafa;
 	--color-dark-blue: #0e4598;
@@ -9,6 +9,15 @@
 	--color-light-blue: #164d9d;
 	--color-lighter-blue: #327ce8;
 	--color-text: #38383a;
+} */
+
+:root {
+	--color-blue-dark-shade: #2d3250;
+	--color-blue-indigo: #424769;
+	--color-blue-light-indigo: #7077a1;
+	--color-light-orange: #f6b17a;
+	--color-primary: #fff;
+	--color-secondary: #94a3b8;
 }
 
 html,
@@ -18,12 +27,15 @@ body {
 
 body {
 	font-family: 'Nunito', 'Tajawal', sans-serif;
-	color: var(--color-text);
+	color: var(--color-secondary);
+	background-color: var(--color-blue-dark-shade);
 }
 
 a {
-	color: var(--color-text);
+	color: var(--color-primary);
 	text-decoration: none;
+	font-weight: bold;
+	transition-duration: .3s;
 }
 
 .btn {
@@ -49,17 +61,12 @@ a {
 }
 
 a:hover {
-	color: inherit;
+	color: var(--color-light-orange);
+	text-decoration: none;
 }
 
 .display-none {
 	display: none;
-}
-
-a:not(.active):hover,
-.gallery-button:hover {
-	color: inherit;
-	opacity: .7;
 }
 
 h1,
@@ -80,13 +87,18 @@ h6 {
 	background: var(--color-light-gray);
 }
 
+.underline,
+.underline-center {
+	color: var(--color-primary);
+}
+
 .underline::after,
 .underline-center::after {
 	content: '';
 	display: block;
 	width: 80px;
 	height: 3px;
-	background-color: var(--color-lighter-blue);
+	background-color: var(--color-light-orange);
 	margin-top: 5px;
 }
 
@@ -97,8 +109,7 @@ h6 {
 }
 
 .header {
-	background: #2a3344;
-	background: transparent;
+	background-color: var(--color-blue-dark-shade);
 }
 
 .header-fixed {
@@ -126,6 +137,7 @@ h6 {
 }
 
 .header-menu-link {
+	color: var(--color-primary);
 	padding: 25px 20px;
 	text-transform: uppercase;
 	transition: all .3s;
@@ -144,7 +156,7 @@ h6 {
 	display: block;
 	width: 100%;
 	height: 2px;
-	background: var(--color-lighter-blue);
+	background: var(--color-light-orange);
 }
 
 .header-hamburger-icon-container {
@@ -203,6 +215,7 @@ h6 {
 	font-size: 20px;
 	position: relative;
 	transition: color .3s;
+	color: var(--color-primary);
 }
 
 .icon-item.facebook:hover {
