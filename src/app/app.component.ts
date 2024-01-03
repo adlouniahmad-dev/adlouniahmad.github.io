@@ -16,9 +16,7 @@ export class AppComponent implements OnInit {
       once: true
     });
 
-    // this.swUpdate.available.subscribe(e => {
-    //   window.location.reload()
-    // });
+    this.swUpdate.versionUpdates.subscribe(() => window.location.reload());
   }
 
 }
