@@ -19,7 +19,7 @@ import { WelcomeComponent } from './home/welcome/welcome.component';
 import { ProductItemComponent } from './home/portfolio/product-item/product-item.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PortfolioItemComponent } from './portfolio-item/portfolio-item.component';
-import { ServiceWorkerModule } from '@angular/service-worker';
+import { ServiceWorkerModule, SwUpdate } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
@@ -50,7 +50,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     CarouselModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [SwUpdate],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
