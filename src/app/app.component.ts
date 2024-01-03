@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { SwUpdate } from '@angular/service-worker';
 import AOS from 'aos';
 
@@ -9,16 +9,16 @@ import AOS from 'aos';
 })
 export class AppComponent implements OnInit {
 
-  constructor(private swUpdate: SwUpdate) {}
+  constructor(@Inject('swUpdate') private swUpdate: SwUpdate) {}
 
   ngOnInit(): void {
     AOS.init({
       once: true
     });
 
-    this.swUpdate.available.subscribe(e => {
-      window.location.reload()
-    });
+    // this.swUpdate.available.subscribe(e => {
+    //   window.location.reload()
+    // });
   }
 
 }
