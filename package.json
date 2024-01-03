@@ -12,16 +12,16 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^16.2.12",
-    "@angular/common": "^16.2.12",
-    "@angular/compiler": "^16.2.12",
-    "@angular/core": "^16.2.12",
-    "@angular/forms": "^16.2.12",
-    "@angular/localize": "^16.2.12",
-    "@angular/platform-browser": "^16.2.12",
-    "@angular/platform-browser-dynamic": "^16.2.12",
-    "@angular/router": "^16.2.12",
-    "@angular/service-worker": "^16.2.12",
+    "@angular/animations": "^17.0.8",
+    "@angular/common": "^17.0.8",
+    "@angular/compiler": "^17.0.8",
+    "@angular/core": "^17.0.8",
+    "@angular/forms": "^17.0.8",
+    "@angular/localize": "^17.0.8",
+    "@angular/platform-browser": "^17.0.8",
+    "@angular/platform-browser-dynamic": "^17.0.8",
+    "@angular/router": "^17.0.8",
+    "@angular/service-worker": "^17.0.8",
     "@fortawesome/angular-fontawesome": "^0.13.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
@@ -36,12 +36,12 @@
     "ngx-owl-carousel-o": "^16.0.0",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
-    "zone.js": "~0.13.3"
+    "zone.js": "~0.14.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.0.0",
-    "@angular/cli": "^16.2.11",
-    "@angular/compiler-cli": "^16.2.12",
+    "@angular-devkit/build-angular": "^17.0.9",
+    "@angular/cli": "^17.0.9",
+    "@angular/compiler-cli": "^17.0.8",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
@@ -57,6 +57,6 @@
     "protractor": "^7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.9.5"
+    "typescript": "~5.2.2"
   }
 }
