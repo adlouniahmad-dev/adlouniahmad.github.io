@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ContactService } from 'src/app/shared/services/contact.service';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'adl-contact',
@@ -9,9 +9,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class ContactComponent implements OnInit {
 
-  constructor(private contactService: ContactService, private fb: FormBuilder) { }
+  constructor(private contactService: ContactService, private fb: UntypedFormBuilder) { }
 
-  contactForm: FormGroup;
+  contactForm: UntypedFormGroup;
   showLoader: boolean = false;
   showSuccess: boolean = false;
   isSubmitted: boolean = false;
