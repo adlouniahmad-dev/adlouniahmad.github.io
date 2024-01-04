@@ -1,16 +1,9 @@
-<footer class="py-5rem">
-  <div class="container">
-    <div class="text-center mb-4">
-      <span>Copyright &copy; {{ currentYear }} All Rights Reserved.</span>
-    </div>
-    <div class="icons text-center">
-      @for (socialNetwork of socialNetworks; track socialNetwork) {
-        <span class="icon-item-container">
-          <a href="{{ socialNetwork.link }}" rel="noopener" class="icon-item {{ socialNetwork.name }}" target="_blank">
-            <fa-icon [icon]="icons[socialNetwork.name]" [fixedWidth]="true"></fa-icon>
-          </a>
-        </span>
-      }
-    </div>
-  </div>
+<footer>
+  @for (socialNetwork of socialNetworks; track socialNetwork) {
+    <span class="icon-item-container">
+      <a href="{{ socialNetwork.link }}" rel="noopener" class="icon-item {{ socialNetwork.name }}" target="_blank">
+        <fa-icon [icon]="icons[socialNetwork.name]" [fixedWidth]="true"></fa-icon>
+      </a>
+    </span>
+  }
 </footer>

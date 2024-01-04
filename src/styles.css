@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* :root { 
 	--color-gray: #283442;
@@ -8,7 +9,7 @@
 	--color-blue: #114696;
 	--color-light-blue: #164d9d;
 	--color-lighter-blue: #327ce8;
-	--color-text: #38383a;
+	
 } */
 
 :root {
@@ -33,15 +34,32 @@ body {
 
 a {
 	color: var(--color-primary);
-	text-decoration: none;
-	font-weight: bold;
+	font-weight: 500;
 	transition-duration: .3s;
+}
+
+a,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--color-light-orange);
 }
 
 .btn {
 	letter-spacing: .2rem !important;
 	font-size: 12px !important;
 	border-radius: 100px !important;
+}
+
+.gap-1 {
+	gap: 1rem;
+}
+
+.adl-text-primary {
+	color: var(--color-primary);
 }
 
 .mt-45px {
@@ -58,11 +76,6 @@ a {
 
 .font-weight-lighter {
 	font-weight: lighter;
-}
-
-a:hover {
-	color: var(--color-light-orange);
-	text-decoration: none;
 }
 
 .display-none {
@@ -106,57 +119,6 @@ h6 {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-}
-
-.header {
-	background-color: var(--color-blue-dark-shade);
-}
-
-.header-fixed {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 1;
-}
-
-.header .logo {
-	height: 30px;
-}
-
-.header-content {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.header .header-menu {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: flex;
-}
-
-.header-menu-link {
-	color: var(--color-primary);
-	padding: 25px 20px;
-	text-transform: uppercase;
-	transition: all .3s;
-}
-
-.header-menu-link:last-child {
-	padding-right: 0;
-}
-
-.header-menu-link.active {
-	font-weight: bold;
-}
-
-.header-menu-link.active::after {
-	content: '';
-	display: block;
-	width: 100%;
-	height: 2px;
-	background: var(--color-light-orange);
 }
 
 .header-hamburger-icon-container {
@@ -234,14 +196,13 @@ h6 {
 	display: flex;
 }
 
-.typewritter>span {
+.typewritter > span {
 	overflow: hidden;
-	width: 180px;
-	border-right: .15em solid var(--color-lighter-blue);
+	width: 270px;
+	border-right: .15em solid var(--color-light-orange);
 	white-space: nowrap;
 	margin-right: auto;
-	letter-spacing: .15em;
-	animation: typing 2.5s steps(40, end), blink-caret .75s step-end infinite;
+	animation: typing 2.5s steps(400, end), blink-caret .75s step-end infinite;
 }
 
 .home-bg {
@@ -252,15 +213,6 @@ h6 {
 	height: 75vh;
 }
 
-.header.shrink {
-	box-shadow: 0 12px 19px 0 rgba(56, 56, 58, .09);
-}
-
-.header.shrink .header-menu-link {
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
 .font-size-30px {
 	font-size: 30px;
 }
@@ -269,17 +221,8 @@ h6 {
 	font-size: 50px;
 }
 
-#home {
-	padding-top: 75px;
-	padding-bottom: 75px;
-}
-
 .name {
 	font-size: 50px;
-}
-
-.header-menu-container {
-	display: block;
 }
 
 .close-btn {
@@ -790,53 +733,7 @@ label {
 	}
 }
 
-@media screen and (max-width: 991px) {
-	.header-menu-container {
-		display: none;
-	}
-
-	.header.shrink .header-menu-link {
-		padding-top: 25px;
-		padding-bottom: 25px;
-	}
-
-	.header-menu-container.show {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		position: fixed;
-		top: 0;
-		height: 100vh;
-		width: 100%;
-		right: 0;
-		background: rgba(255, 255, 255, 1);
-		z-index: 99;
-	}
-
-	.header-menu-container.show .close-btn {
-		display: block;
-	}
-
-	.header-menu {
-		flex-direction: column;
-	}
-
-	.header {
-		padding-top: 25px;
-		padding-bottom: 25px;
-	}
-
-	.home-bg {
-		background-size: 300px 300px;
-		height: 50vh;
-	}
-}
-
 @media screen and (max-width: 767px) {
-	.home-bg {
-		background: none;
-	}
-
 	.portfolio-item {
 		height: 300px;
 	}
@@ -864,7 +761,7 @@ label {
 	}
 
 	to {
-		width: 200px
+		width: 270px
 	}
 }
 
@@ -876,6 +773,6 @@ label {
 	}
 
 	50% {
-		border-color: var(--color-lighter-blue);
+		border-color: var(--color-light-orange);
 	}
 }

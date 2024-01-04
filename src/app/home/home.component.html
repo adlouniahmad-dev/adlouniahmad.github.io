@@ -1,6 +1,29 @@
-<main id="main" class="main position-relative">
-    <adl-welcome></adl-welcome>
-    <adl-about></adl-about>
-    <adl-portfolio></adl-portfolio>
-    <adl-contact></adl-contact>
-</main>
+<div class="main position-relative">
+	<div class="d-flex flex-column flex-lg-row justify-content-between gap-1">
+
+		<header class="header d-flex flex-column justify-content-between">
+			<div data-aos="fade-right">
+				<div>
+					<div class="font-size-30px">
+						<span class="adl-text-primary">Hello, I'm</span>
+					</div>
+					<div class="font-weight-bold name">
+						<span class="adl-text-primary">{{ info.name }}</span>
+					</div>
+					<div class="typewritter">
+						<span>{{ info.position }}</span>
+					</div>
+				</div>
+				<adl-navigation class="mt-5"></adl-navigation>
+			</div>
+			<adl-footer class="mt-4"></adl-footer>
+		</header>
+
+		<main class="content">
+			<adl-about></adl-about>
+			<adl-portfolio></adl-portfolio>
+			<adl-contact></adl-contact>
+		</main>
+
+	</div>
+</div>

@@ -1,0 +1,41 @@
+:host {
+  display: block;
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 4.5rem;
+}
+
+.header,
+.content {
+  padding-top: 6rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 991px) {
+
+  .header {
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+  }
+
+  .header,
+  .content {
+    padding-bottom: 6rem;
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  :host {
+    padding: 0 1.5rem;
+  }
+
+  .header,
+  .content {
+    padding-top: 3rem;
+  }
+
+}

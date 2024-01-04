@@ -7,7 +7,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './shared/components/header/header.component';
+import { NavigationComponent } from './shared/components/navigation/navigation.component';
 import { RouterModule } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContactComponent } from './home/contact/contact.component';
@@ -15,7 +15,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './home/about/about.component';
 import { PortfolioComponent } from './home/portfolio/portfolio.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { WelcomeComponent } from './home/welcome/welcome.component';
 import { ProductItemComponent } from './home/portfolio/product-item/product-item.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PortfolioItemComponent } from './portfolio-item/portfolio-item.component';
@@ -27,12 +26,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent,
+    NavigationComponent,
     ContactComponent,
     AboutComponent,
     PortfolioComponent,
     FooterComponent,
-    WelcomeComponent,
     ProductItemComponent,
     PortfolioItemComponent,
     PageNotFoundComponent
