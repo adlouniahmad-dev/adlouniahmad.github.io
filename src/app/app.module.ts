@@ -3,40 +3,44 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule, } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CarouselModule } from 'ngx-owl-carousel-o';
-import { CrystalLightboxModule } from '@crystalui/angular-lightbox';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './shared/components/header/header.component';
+import { NavigationComponent } from './shared/components/navigation/navigation.component';
 import { RouterModule } from '@angular/router';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContactComponent } from './home/contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './home/about/about.component';
 import { PortfolioComponent } from './home/portfolio/portfolio.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { WelcomeComponent } from './home/welcome/welcome.component';
 import { ProductItemComponent } from './home/portfolio/product-item/product-item.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PortfolioItemComponent } from './portfolio-item/portfolio-item.component';
-import { ServiceWorkerModule } from '@angular/service-worker';
+import { ServiceWorkerModule, SwUpdate } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ExperiencesComponent } from './home/experiences/experiences.component';
+import { ExperienceComponent } from './home/experiences/experience/experience.component';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent,
+    NavigationComponent,
     ContactComponent,
     AboutComponent,
     PortfolioComponent,
     FooterComponent,
-    WelcomeComponent,
     ProductItemComponent,
     PortfolioItemComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ExperiencesComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
@@ -49,10 +53,15 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NgbModule,
     BrowserAnimationsModule,
     CarouselModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-    CrystalLightboxModule
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [SwUpdate],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+  constructor(library: FaIconLibrary) {
+    library.addIconPacks(fas, far, fab);
+  }
+
+}

@@ -1,14 +1,23 @@
-<footer class="py-5rem">
-    <div class="container">
-        <div class="text-center mb-4">
-            <span>Copyright &copy; {{ currentYear }} All Rights Reserved.</span>
-        </div>
-        <div class="icons text-center">
-            <span class="icon-item-container" *ngFor="let socialNetwork of socialNetworks">
-                <a href="{{ socialNetwork.link }}" rel="noopener" class="icon-item {{ socialNetwork.name }}" target="_blank">
-                    <fa-icon [icon]="icons[socialNetwork.name]" [fixedWidth]="true"></fa-icon>
-                </a>
-            </span>
-        </div>
+<footer>
+  <div class="contact-info mb-3">
+    <div class="d-flex gap-1">
+      <fa-icon [icon]="['fas', 'envelope']"></fa-icon>
+      <span>
+        <a [href]="'mailto:' + contactInfo.email" target="_blank">{{ contactInfo.email }}</a>
+      </span>
     </div>
+    <div class="d-flex gap-1">
+      <fa-icon [icon]="['fas', 'location-dot']"></fa-icon>
+      <span>{{ contactInfo.address }}</span>
+    </div>
+  </div>
+  <div class="d-flex gap-1">
+    @for (socialNetwork of socialNetworks; track socialNetwork) {
+      <span>
+        <a [href]="socialNetwork.link" rel="noopener" class="icon-item {{ socialNetwork.name }}" target="_blank">
+          <fa-icon [icon]="icons[socialNetwork.name]" [fixedWidth]="true"></fa-icon>
+        </a>
+      </span>
+    }
+  </div>
 </footer>

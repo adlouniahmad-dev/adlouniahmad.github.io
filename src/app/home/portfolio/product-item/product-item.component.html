@@ -1,17 +1,18 @@
-<div [ngStyle]="{'background-image': 'url(' + item.featuredImage + ')'}"
-    class="portfolio-item position-relative on-hover">
-    <div class="text-center p-3 portfolio-header">
-        <div class="title font-weight-bold">{{ item.name }}</div>
-        <div class="tags">{{ item.languages }}</div>
+<div [ngStyle]="{'background-image': 'url(' + item.featuredImage + ')'}" class="portfolio-item position-relative on-hover">
+  <div class="text-center p-3 portfolio-header">
+    <div class="title font-weight-bold">{{ item.name }}</div>
+    <div class="tags">{{ item.languages }}</div>
+  </div>
+  <div class="portfolio-footer p-2">
+    <div class="d-flex align-items-center justify-content-center">
+      @if (item.link) {
+        <button class="btn font-weight-lighter" (click)="goToLink()">
+          <fa-icon [icon]="icons.link" [fixedWidth]="true"></fa-icon>
+        </button>
+      }
+      <button class="btn font-weight-lighter" (click)="navigateToDetails(item.id)">
+        <fa-icon [icon]="icons.info" [fixedWidth]="true"></fa-icon>
+      </button>
     </div>
-    <div class="portfolio-footer p-2">
-        <div class="d-flex align-items-center justify-content-center">
-            <button class="btn font-weight-lighter" *ngIf="item.link" (click)="goToLink()">
-                <fa-icon [icon]="icons.link" [fixedWidth]="true"></fa-icon>
-            </button>
-            <button class="btn font-weight-lighter" (click)="navigateToDetails(item.id)">
-                <fa-icon [icon]="icons.info" [fixedWidth]="true"></fa-icon>
-            </button>
-        </div>
-    </div>
+  </div>
 </div>

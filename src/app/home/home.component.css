@@ -1,0 +1,72 @@
+:host {
+  display: block;
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.header,
+.content {
+  padding-top: 3rem;
+  width: 100%;
+}
+
+.content ::ng-deep .section {
+  margin-bottom: 5rem;
+}
+
+.navigation-container {
+  display: none;
+}
+
+:host ::ng-deep .section-title {
+  display: block;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding: 1.2rem 0;
+  background-color: var(--color-blue-dark-shade);
+}
+
+@media screen and (min-width: 991px) {
+
+  :host {
+    padding: 0 4.5rem;
+  }
+
+  :host ::ng-deep .section-title {
+    display: none;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+  }
+
+  .header,
+  .content {
+    padding-bottom: 6rem;
+    width: 50%;
+  }
+
+  .content ::ng-deep .section {
+    margin-bottom: 9rem;
+  }
+
+  .navigation-container {
+    display: block;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+
+  .header,
+  .content {
+    padding-top: 6rem;
+  }
+
+}

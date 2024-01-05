@@ -1,3 +1,8 @@
-:host ::ng-deep a {
-  text-decoration: underline;
+:host ::ng-deep .work-position {
+  color: #aa7142;
+  font-weight: 500;
+}
+
+:host ::ng-deep .work-position::before {
+  content: '#';
 }

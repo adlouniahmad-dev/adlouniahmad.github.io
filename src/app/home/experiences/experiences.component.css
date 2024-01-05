@@ -1,0 +1,7 @@
+:host {
+  display: block;
+}
+
+:host:hover adl-experience ::ng-deep .opacity-half {
+  opacity: .5;
+}

@@ -1,0 +1,12 @@
+<nav class="position-relative" id="menu">
+	<ul class="header-menu">
+		@for (link of links; track link) {
+			<li class="nav-item">
+				<a class="header-menu-link nav-link d-flex align-items-center" [href]="link.href">
+					<span class="nav-indicator"></span>
+					<span class="text-uppercase link-name">{{ link.name }}</span>
+				</a>
+			</li>
+		}
+	</ul>
+</nav>

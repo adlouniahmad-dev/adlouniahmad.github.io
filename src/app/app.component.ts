@@ -5,7 +5,7 @@ import AOS from 'aos';
 @Component({
   selector: 'adl-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
 
@@ -16,9 +16,7 @@ export class AppComponent implements OnInit {
       once: true
     });
 
-    this.swUpdate.available.subscribe(e => {
-      window.location.reload()
-    });
+    this.swUpdate.versionUpdates.subscribe(() => window.location.reload());
   }
 
 }
