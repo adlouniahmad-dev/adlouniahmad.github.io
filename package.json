@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --host 0.0.0.0",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --configuration production && gh-pages -d dist/adlouniahmad-portfolio"
+    "deploy": "gh-pages -d dist/adlouniahmad-portfolio"
   },
   "private": true,
   "dependencies": {
