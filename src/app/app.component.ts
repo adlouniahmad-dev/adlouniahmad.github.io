@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SwUpdate } from '@angular/service-worker';
+import { filter } from 'rxjs/operators'
 import AOS from 'aos';
 
 @Component({
@@ -16,7 +17,9 @@ export class AppComponent implements OnInit {
       once: true
     });
 
-    this.swUpdate.versionUpdates.subscribe(() => window.location.reload());
+    this.swUpdate.versionUpdates
+      .pipe(filter(e => e.type === 'VERSION_READY'))
+      .subscribe(() => window.location.reload());
   }
 
 }
