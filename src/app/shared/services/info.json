@@ -3,7 +3,7 @@
 		"name": "Ahmad Adlouni",
 		"position": "Software Engineer at Siren Analytics",
 		"about": [
-			"I am a seasoned <span class='work-position'>Software Engineer</span> currently employed at <a href='https://sirenanalytics.com'>Siren Analytics</a>, and I am also actively involved in freelance work as a <span class='work-position'>Full Stack Web Developer</span>.",
+			"I am a seasoned <span class='work-position'>Software Engineer</span> currently employed at <a href='https://sirenanalytics.com' target='_blank'>Siren Analytics</a>, and I am also actively involved in freelance work as a <span class='work-position'>Full Stack Web Developer</span>.",
 			"I have proficiency in frontend and backend frameworks and technologies. With a collaborative approach, I excel in delivering high-quality solutions throughout the software development life cycle, driven by a passion for innovation.",
 			"Specializing in UI/UX, I am an adept Angular engineer with hands-on experience in front-end development and the Angular framework. My commitment is to produce top-notch code, crafting captivating user experiences.",
 			"Actively participating in diverse projects, including web, backend systems and chatbots, I bring expertise in Java, Spring Boot, Angular, Twilio Conversation API with DialogFlow CX, NodeJS and GWT. Additionally, my commitment to continuous learning ensures I stay updated with the latest industry trends and technologies."
@@ -18,7 +18,9 @@
 			"description": "<p>As a Software Engineer at Siren Analytics, I play a crucial role in the development of the EMRC-MODEE project. My responsibilities encompass crafting engaging and user-friendly interfaces, utilizing my expertise in front-end technologies. Working collaboratively with the team, I contribute to the design, development, and optimization of the user interface, ensuring a seamless and visually appealing experience for the end-users.</p>",
 			"tags": [
 				"Angular",
-				"UI Design"
+				"UI Design",
+				"Material",
+				"SASS"
 			]
 		},
 		{
@@ -33,6 +35,8 @@
 				"Sprint Boot",
 				"Oracle Database",
 				"Angular",
+				"RxJs",
+				"NGRX",
 				"UI/UX Design",
 				"Figma",
 				"Twilio",
