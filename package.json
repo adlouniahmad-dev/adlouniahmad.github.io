@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --configuration production && npx gh-pages -d dist/adlouniahmad-portfolio"
+    "deploy": "ng build --configuration production && git checkout main && npx gh-pages -d dist/adlouniahmad-portfolio"
   },
   "private": true,
   "dependencies": {
