@@ -121,77 +121,6 @@ h6 {
 	transform: translateX(-50%);
 }
 
-.header-hamburger-icon-container {
-	cursor: pointer;
-	width: 100%;
-	outline: none;
-	background: none;
-	padding: 0;
-	border: none;
-}
-
-.hamburger-icon,
-.hamburger-icon::before,
-.hamburger-icon::after {
-	display: block;
-	height: 2px;
-	background: var(--color-text);
-	border-radius: 50px;
-	cursor: pointer;
-}
-
-.hamburger-icon {
-	width: 22.5px;
-	position: relative;
-}
-
-.hamburger-icon::before,
-.hamburger-icon::after {
-	content: '';
-	position: absolute;
-	right: 0;
-}
-
-.hamburger-icon::before {
-	width: 30px;
-	top: -7px;
-}
-
-.hamburger-icon::after {
-	width: 15px;
-	bottom: -7px;
-}
-
-.icon-item-container:not(:first-child) {
-	margin-left: 10px;
-}
-
-.icon-item-container {
-	display: inline-block;
-}
-
-.icon-item {
-	padding: 10px;
-	display: block;
-	cursor: pointer;
-	font-size: 20px;
-	position: relative;
-	transition: color .3s;
-	color: var(--color-primary);
-}
-
-.icon-item.facebook:hover {
-	color: #4267B2;
-}
-
-.icon-item.instagram:hover {
-	color: #E1306C;
-}
-
-.icon-item.linkedIn:hover {
-	color: #2867B2;
-}
-
 .typewritter {
 	display: flex;
 }
@@ -203,14 +132,6 @@ h6 {
 	white-space: nowrap;
 	margin-right: auto;
 	animation: typing 2.5s steps(400, end), blink-caret .75s step-end infinite;
-}
-
-.home-bg {
-	background-image: url('/assets/img/me.png');
-	background-repeat: no-repeat;
-	background-position: right center;
-	background-size: 500px 500px;
-	height: 75vh;
 }
 
 .font-size-30px {

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ISocialNetwork } from 'src/app/shared/interfaces/social-network';
-import { faHeart } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faFacebookF, faLinkedinIn, faGithub, faBitbucket } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebookF, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { GeneralService } from '../../services/general.service';
+import { IContactInfo } from '../../interfaces/contact-info';
 
 @Component({
   selector: 'adl-footer',
@@ -13,22 +13,22 @@ export class FooterComponent implements OnInit {
 
   icons: any;
   socialNetworks: Array<ISocialNetwork> = [];
+  contactInfo: IContactInfo; 
 
   constructor(private generalService: GeneralService) { }
 
   ngOnInit(): void {
     this.initializeIcons();
     this.socialNetworks = this.generalService.getSocialNetworks();
+    this.contactInfo = this.generalService.getContactInfo();
   }
 
   initializeIcons(): void {
     this.icons = {
-      heart: faHeart,
       instagram: faInstagram,
       facebook: faFacebookF,
       linkedIn: faLinkedinIn,
       github: faGithub,
-      bitbucket: faBitbucket
     }
   }
 

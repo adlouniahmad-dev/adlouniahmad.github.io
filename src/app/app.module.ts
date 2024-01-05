@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './shared/components/navigation/navigation.component';
 import { RouterModule } from '@angular/router';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContactComponent } from './home/contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AboutComponent } from './home/about/about.component';
@@ -21,6 +21,11 @@ import { PortfolioItemComponent } from './portfolio-item/portfolio-item.componen
 import { ServiceWorkerModule, SwUpdate } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ExperiencesComponent } from './home/experiences/experiences.component';
+import { ExperienceComponent } from './home/experiences/experience/experience.component';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 @NgModule({
   declarations: [
@@ -33,7 +38,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     FooterComponent,
     ProductItemComponent,
     PortfolioItemComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ExperiencesComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
@@ -51,4 +58,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   providers: [SwUpdate],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+  constructor(library: FaIconLibrary) {
+    library.addIconPacks(fas, far, fab);
+  }
+
+}

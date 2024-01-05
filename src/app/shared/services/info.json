@@ -1,329 +1,395 @@
 {
-    "info": {
-        "name": "Ahmad Adlouni",
-        "position": "Software Engineer at Siren Analytics",
-        "about": [
-            "I am a seasoned <span class='work-position'>Software Engineer</span> employed at <a href='https://sirenanalytics.com' target='_blank'>Siren Analytics</a> and concurrently engage in freelance work as a Full Stack Web Developer, specializing in the design and development of websites and web applications.",
-            "My academic background includes a Bachelor of Science degree in Computer Science from <a href='https://bau.edu.lb' target='_blank'>Beirut Arab University</a>, accredited by ABET. I secured the first position in two semesters: Fall 2016-2017 and Fall 2017-2018, ultimately graduating with a noteworthy cumulative GPA of 3.76/4.",
-            "In addition to my academic achievements, I've participated in VEX Robotics for two consecutive years (2017 and 2018) and showcased my programming skills at the Lebanese Collegiate Programming Contest (LCPC) in 2016.",
-            "My professional journey includes valuable experiences gained through internships at IDS (Integrated Digital Systems) and Vanrise Solutions as a <span class='work-position'>Software Developer</span>. I've served in role such as <span class='work-position'>Frontend Developer</span> at <a href='https://bluering.com' target='_blank'>Bluering</a> and held position as a <span class='work-position'>Software Engineer & Senior UI and Frontend Engineer</span> at <a href='https://vestacare.com' target='_blank'>VestaCare Inc.</a>.",
-            "Throughout my career, I have honed my expertise in a diverse array of technologies, languages, and frameworks, encompassing <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Angular</strong>, <strong>JavaScript</strong>, <strong>Android</strong>, <strong>Python</strong>, <strong>Flask Micro-framework</strong>, <strong>MySQL</strong>, <strong>Git</strong>, <strong>Google Web Toolkit</strong>, <strong>Oracle SQL</strong>, <strong>PHP</strong>, and <strong>Slim Micro-framework</strong>."
-        ]
-    },
-    "contact": [
-        {
-            "key": "Email",
-            "value": "adlouniahmad@outlook.com"
-        },
-        {
-            "key": "Phone",
-            "value": "+961 71 387 643"
-        },
-        {
-            "key": "Address",
-            "value": "Saida, Lebanon"
-        }
-    ],
-    "categories": [
-        {
-            "name": "All",
-            "value": "*",
-            "active": true
-        },
-        {
-            "name": "Web",
-            "value": "web",
-            "active": false
-        },
-        {
-            "name": "Mobile",
-            "value": "mobile",
-            "active": false
-        }
-    ],
-    "portfolio": [
-        {
-            "id": "ask",
-            "name": "ASK - Agile Share Knowledge",
-            "tags": "web",
-            "languages": "Angular / EF Core",
-            "featuredImage": "/assets/img/ask-logo.png",
-            "link": "https://www.dgitme.com/copy-of-automation-and-av-systems",
-            "details": {
-                "description": [
-                    "The project aims to spread knowledge among all the employees at all levels of the institution's sectors and departments, in order to raise the learning curve, spread the supportive institutional culture in a practical and systematic way, maximize the use of the knowledge and expertise in the organization which is a major element in promoting proactive knowledge.",
-                    "The application is available in English and Arabic languages."
-                ],
-                "techDescription": [
-                    "This web application was developed in Entity Framework Core Web API and Angular."
-                ],
-                "tags": [
-                    "HTML",
-                    "CSS",
-                    "EF Core",
-                    "C#",
-                    "TypeScript",
-                    "Angular",
-                    "Web APIs"
-                ],
-                "links": [
-                    {
-                        "name": "Go to Website",
-                        "link": "https://www.dgitme.com/copy-of-automation-and-av-systems"
-                    }
-                ],
-                "screenshots": [
-                    "/assets/img/ask-1.PNG",
-                    "/assets/img/ask-2.PNG",
-                    "/assets/img/ask-3.PNG",
-                    "/assets/img/ask-4.PNG"
-                ]
-            }
-        },
-        {
-            "id": "leb-phones",
-            "name": "LebPhones",
-            "tags": "web",
-            "languages": "Slim PHP / PWA",
-            "featuredImage": "/assets/img/lebphones-logo.png",
-            "link": "http://lebphones.com",
-            "details": {
-                "description": [
-                    "A website that displays the wholesale prices of various mobile phones in Lebanon."
-                ],
-                "techDescription": [
-                    "This website was written in PHP using Slim Framework and added the PWA - Progressive Web Apps - capability to it."
-                ],
-                "tags": [
-                    "HTML",
-                    "CSS",
-                    "PHP",
-                    "Slim Framework",
-                    "JavaScript",
-                    "PWA"
-                ],
-                "links": [
-                    {
-                        "name": "Go to Website",
-                        "link": "http://lebphones.com"
-                    }
-                ],
-                "screenshots": [
-                    "/assets/img/lebphones-1.PNG",
-                    "/assets/img/lebphones-2.PNG",
-                    "/assets/img/lebphones-3.PNG"
-                ]
-            }
-        },
-        {
-            "id": "sim-phones",
-            "name": "Sim-Phones",
-            "tags": "web",
-            "languages": "Angular / Slim PHP / PWA",
-            "featuredImage": "/assets/img/simphones-logo.png",
-            "link": "https://app.sim-phones.com",
-            "details": {
-                "description": [
-                    "Sim-Phones is a Web Application that allows people to buy virtual numbers from various countries (Russia, Germany, etc...) to use it in different services, such as: WhatsApp, Facebook, Viber, etc..."
-                ],
-                "techDescription": [
-                    "This application consists of a Main website, PWA app and a Dashboard",
-                    "All Web Services are written in PHP using Slim Framework, the PWA App and Dashboard are developed using Angular."
-                ],
-                "tags": [
-                    "HTML",
-                    "CSS",
-                    "PHP",
-                    "Slim Framework",
-                    "Web APIs",
-                    "JavaScript",
-                    "Angular",
-                    "Firebase Cloud Messaging"
-                ],
-                "links": [
-                    {
-                        "name": "Go to Website",
-                        "link": "https://sim-phones.com"
-                    },
-                    {
-                        "name": "Go to App",
-                        "link": "https://app.sim-phones.com"
-                    }
-                ],
-                "screenshots": [
-                    "/assets/img/simphones-1.JPG",
-                    "/assets/img/simphones-2.JPG",
-                    "/assets/img/simphones-3.JPG"
-                ]
-            }
-        },
-        {
-            "id": "mms-server",
-            "name": "MMS Server",
-            "tags": "mobile",
-            "languages": "Android Java",
-            "featuredImage": "/assets/img/mmserver-logo.png",
-            "details": {
-                "description": [
-                    "An android application which acts as a server for the MMService application.",
-                    "This application server handles the operations for sending dollars and days to touch and alfa mobile numbers from the MMService application."
-                ],
-                "techDescription": [
-                    "This application was written in Java language."
-                ],
-                "tags": [
-                    "Java",
-                    "Android",
-                    "Firebase",
-                    "Firestore"
-                ]
-            }
-        },
-        {
-            "id": "mega-deals",
-            "name": "MegaDeals",
-            "tags": "web",
-            "languages": "Angular / Slim PHP",
-            "featuredImage": "/assets/img/megadeals-logo.png",
-            "link": "https://www.megadeals.world",
-            "details": {
-                "description": [
-                    "A website that displays deals from different online stores such as AliExpress."
-                ],
-                "techDescription": [
-                    "The Web App consists of a Main page and a Dashboard.",
-                    "The frontend of the Main page and the Dashboard were developed in Angular and consume Web APIs which are written in PHP using Slim Framework."
-                ],
-                "tags": [
-                    "HTML",
-                    "CSS",
-                    "PHP",
-                    "Slim Framework",
-                    "Web APIs",
-                    "JavaScript",
-                    "Angular"
-                ],
-                "links": [
-                    {
-                        "name": "Go to Website",
-                        "link": "https://www.megadeals.world"
-                    }
-                ],
-                "screenshots": [
-                    "/assets/img/megadeals-1.png",
-                    "/assets/img/megadeals-2.png",
-                    "/assets/img/megadeals-3.PNG"
-                ]
-            }
-        },
-        {
-            "id": "status-saver",
-            "name": "Status Saver",
-            "tags": "mobile",
-            "languages": "Android Java",
-            "featuredImage": "/assets/img/statussaver-logo.png",
-            "details": {
-                "description": [
-                    "Status Saver application lets you save photo images and videos from WhatsApp application and it also allows you to share the media directly from the application to your friends."
-                ],
-                "techDescription": [
-                    "This application was written in Java language and uses third party libraries such as Picasso."
-                ],
-                "tags": [
-                    "Java",
-                    "Android"
-                ],
-                "links": [
-                    {
-                        "name": "Download App",
-                        "link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.statussaver"
-                    }
-                ],
-                "screenshots": [
-                    "/assets/img/statussaver-1.png",
-                    "/assets/img/statussaver-2.png",
-                    "/assets/img/statussaver-3.png"
-                ]
-            }
-        },
-        {
-            "id": "domain-finder",
-            "name": "Domain Finder",
-            "tags": "mobile",
-            "languages": "Android Java",
-            "featuredImage": "/assets/img/domainfinder-logo.png",
-            "details": {
-                "description": [
-                    "An android application that lets you search for a domain name to check its availability and its price."
-                ],
-                "techDescription": [
-                    "This application was written in Java language and uses GoDaddy Domains APIs."
-                ],
-                "tags": [
-                    "Java",
-                    "Android",
-                    "Retrofit"
-                ],
-                "links": [
-                    {
-                        "name": "Download App",
-                        "link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.domainfinder"
-                    }
-                ],
-                "screenshots": [
-                    "/assets/img/domainfinder-1.png",
-                    "/assets/img/domainfinder-2.png",
-                    "/assets/img/domainfinder-3.png"
-                ]
-            }
-        },
-        {
-            "id": "electronic-masbaha",
-            "name": "المسبحة الإلكترونية",
-            "tags": "mobile",
-            "languages": "Android Java",
-            "featuredImage": "/assets/img/electronicmasbaha-logo.png",
-            "details": {
-                "description": [
-                    "An android application that lets you count your prayers on phone."
-                ],
-                "techDescription": [
-                    "This application was written in Java language."
-                ],
-                "tags": [
-                    "Java",
-                    "Android"
-                ],
-                "links": [
-                    {
-                        "name": "Download App",
-                        "link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.electronicmasbaha"
-                    }
-                ],
-                "screenshots": [
-                    "/assets/img/electronicmasbaha-1.png",
-                    "/assets/img/electronicmasbaha-2.png",
-                    "/assets/img/electronicmasbaha-3.png"
-                ]
-            }
-        }
-    ],
-    "social": [
-        {
-            "name": "facebook",
-            "link": "https://www.facebook.com/adlouni.ahmad/"
-        },
-        {
-            "name": "instagram",
-            "link": "https://www.instagram.com/ahmad_adlouni/"
-        },
-        {
-            "name": "linkedIn",
-            "link": "https://www.linkedin.com/in/adlouni-ahmad/"
-        },
-        {
-            "name": "github",
-            "link": "https://www.github.com/adlouniahmad-dev"
-        }
-    ]
+	"info": {
+		"name": "Ahmad Adlouni",
+		"position": "Software Engineer at Siren Analytics",
+		"about": [
+			"I am a seasoned <span class='work-position'>Software Engineer</span> currently employed at <a href='https://sirenanalytics.com'>Siren Analytics</a>, and I am also actively involved in freelance work as a <span class='work-position'>Full Stack Web Developer</span>.",
+			"I have proficiency in frontend and backend frameworks and technologies. With a collaborative approach, I excel in delivering high-quality solutions throughout the software development life cycle, driven by a passion for innovation.",
+			"Specializing in UI/UX, I am an adept Angular engineer with hands-on experience in front-end development and the Angular framework. My commitment is to produce top-notch code, crafting captivating user experiences.",
+			"Actively participating in diverse projects, including web, backend systems and chatbots, I bring expertise in Java, Spring Boot, Angular, Twilio Conversation API with DialogFlow CX, NodeJS and GWT. Additionally, my commitment to continuous learning ensures I stay updated with the latest industry trends and technologies."
+		]
+	},
+	"experience": [
+		{
+			"position": "Software Engineer",
+			"company": "Siren Analytics",
+			"companyLink": "https://sirenanalytics.com",
+			"period": "dec 2023 - present",
+			"description": "<p>As a Software Engineer at Siren Analytics, I play a crucial role in the development of the EMRC-MODEE project. My responsibilities encompass crafting engaging and user-friendly interfaces, utilizing my expertise in front-end technologies. Working collaboratively with the team, I contribute to the design, development, and optimization of the user interface, ensuring a seamless and visually appealing experience for the end-users.</p>",
+			"tags": [
+				"Angular",
+				"UI Design"
+			]
+		},
+		{
+			"position": "Software Engineer, Senior UI & Frontend Engineer",
+			"company": "VestaCate Inc.",
+			"companyLink": "https://vestacare.com",
+			"period": "dec 2020 - nov 2023",
+			"description": "<p>As a Software Engineer, I play a key role in the complete software development life cycle, handling tasks from analysis to testing for the VestaPay product. My responsibilities include translating user requirements into actionable tasks and coordinating team efforts to ensure project plan adherence. Additionally, I manage the implementation and maintenance of the VSC dashboard, serving as a primary interface for showcasing and selling VestaPay, incorporating Live Chat functionality.</p><p>In my role as a Senior UI and Front-End Engineer, I've utilized Figma to design visually appealing interfaces for the MPR project. Leading the transition from GWT to Angular and Spring Boot, I integrated cutting-edge technologies like Angular 15, RxJs, NGRX, and Spring Boot, significantly influencing project development. I've also implemented a NodeJs/Express web server with features like JWT authentication, API implementation, HTTPS security, TypeScript integration, logging, and Webpack configuration.</p><p>Additionally, my work involves the development, deployment, and maintenance of Dialogflow CX chatbots, where I design and implement intents, entities, and dialogue flows to ensure a seamless user experience. Integration of external APIs and webhooks enhances chatbot capabilities. My capacity to comprehend and innovate within business logic, coupled with robust technical expertise, positions me as a valuable team member deeply committed to exceeding business expectations through collaborative efforts.</p>",
+			"tags": [
+				"Java",
+				"GWT",
+				"Sprint Boot",
+				"Oracle Database",
+				"Angular",
+				"UI/UX Design",
+				"Figma",
+				"Twilio",
+				"DialogFlow CX",
+				"NodeJS"
+			]
+		},
+		{
+			"position": "Frontend Web Development and Database Instructor",
+			"company": "Anera",
+			"companyLink": "https://anera.org",
+			"period": "feb 2023 - may 2023",
+			"description": "<p>I instruct university students and recent graduates in Front-End Web Development and MySQL database management fundamentals. The curriculum covers HTML essentials, CSS basics and layout techniques, introductory JavaScript encompassing basics, objects, and DOM manipulation. Additionally, students explore Angular, delving into basics, routing, services, and utilizing HttpClient, along with gaining a foundational understanding of MySQL Database principles.</p>",
+			"tags": [
+				"Instructor",
+				"Communication",
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Angular",
+				"MySQL"
+			]
+		},
+		{
+			"position": "Full Stack Web Developer",
+			"company": "Freelance",
+			"companyLink": "https://adlouniahmad-dev.github.io",
+			"period": "aug 2019 - present",
+			"description": "<p>In my role as a Freelance Full-Stack Developer, I specialize in building diverse full-stack web applications using Angular, PHP Slim, and databases like MySQL and Microsoft SQL Server.</p><p>Proficient in Front-End development with technologies such as Angular, HTML5, CSS3, and JavaScript, I ensure a seamless user experience by incorporating libraries like jQuery and Bootstrap.</p><p>Efficient database design and management are integral to my work, adapting solutions to project-specific requirements. I excel in developing RESTful APIs for data exchange and integration, utilizing third-party APIs and ensuring data security through JWT authentication.</p><p>Additionally, I contribute to the creation and deployment of functional Android mobile applications accessible on the Google Play Store. Git and Bitbucket are my preferred version control tools, ensuring efficient collaboration and maintaining code integrity across projects.</p>",
+			"tags": [
+				"Angular",
+				"Databases",
+				"Slim Microframework",
+				"EF Core",
+				"Web Services API"
+			]
+		},
+		{
+			"position": "Frontend Web Developer",
+			"company": "Bluering",
+			"companyLink": "https://bluering.com",
+			"period": "feb 2019 - may 2019",
+			"description": "<p>As a frontend developer, I was in charge of creating visually appealing and interactive user interfaces, as well as designing reusable components for the Bluering Retail platform product. This involves leveraging HTML5, CSS3, Bootstrap 4, and Angular 5 to enhance the user experience and functionality of the platform.</p>",
+			"tags": [
+				"CSS3",
+				"Bootstrap",
+				"JavaScript",
+				"Angular",
+				"HTML5",
+				"JSON"
+			]
+		}
+	],
+	"contact": {
+		"email": "adlouniahmad@outlook.com",
+		"address": "Saida, Lebanon"
+	},
+	"categories": [
+		{
+			"name": "All",
+			"value": "*",
+			"active": true
+		},
+		{
+			"name": "Web",
+			"value": "web",
+			"active": false
+		},
+		{
+			"name": "Mobile",
+			"value": "mobile",
+			"active": false
+		}
+	],
+	"portfolio": [
+		{
+			"id": "ask",
+			"name": "ASK - Agile Share Knowledge",
+			"tags": "web",
+			"languages": "Angular / EF Core",
+			"featuredImage": "/assets/img/ask-logo.png",
+			"link": "https://www.dgitme.com/copy-of-automation-and-av-systems",
+			"details": {
+				"description": [
+					"The project aims to spread knowledge among all the employees at all levels of the institution's sectors and departments, in order to raise the learning curve, spread the supportive institutional culture in a practical and systematic way, maximize the use of the knowledge and expertise in the organization which is a major element in promoting proactive knowledge.",
+					"The application is available in English and Arabic languages."
+				],
+				"techDescription": [
+					"This web application was developed in Entity Framework Core Web API and Angular."
+				],
+				"tags": [
+					"HTML",
+					"CSS",
+					"EF Core",
+					"C#",
+					"TypeScript",
+					"Angular",
+					"Web APIs"
+				],
+				"links": [
+					{
+						"name": "Go to Website",
+						"link": "https://www.dgitme.com/copy-of-automation-and-av-systems"
+					}
+				],
+				"screenshots": [
+					"/assets/img/ask-1.PNG",
+					"/assets/img/ask-2.PNG",
+					"/assets/img/ask-3.PNG",
+					"/assets/img/ask-4.PNG"
+				]
+			}
+		},
+		{
+			"id": "leb-phones",
+			"name": "LebPhones",
+			"tags": "web",
+			"languages": "Slim PHP / PWA",
+			"featuredImage": "/assets/img/lebphones-logo.png",
+			"link": "http://lebphones.com",
+			"details": {
+				"description": [
+					"A website that displays the wholesale prices of various mobile phones in Lebanon."
+				],
+				"techDescription": [
+					"This website was written in PHP using Slim Framework and added the PWA - Progressive Web Apps - capability to it."
+				],
+				"tags": [
+					"HTML",
+					"CSS",
+					"PHP",
+					"Slim Framework",
+					"JavaScript",
+					"PWA"
+				],
+				"links": [
+					{
+						"name": "Go to Website",
+						"link": "http://lebphones.com"
+					}
+				],
+				"screenshots": [
+					"/assets/img/lebphones-1.PNG",
+					"/assets/img/lebphones-2.PNG",
+					"/assets/img/lebphones-3.PNG"
+				]
+			}
+		},
+		{
+			"id": "sim-phones",
+			"name": "Sim-Phones",
+			"tags": "web",
+			"languages": "Angular / Slim PHP / PWA",
+			"featuredImage": "/assets/img/simphones-logo.png",
+			"link": "https://app.sim-phones.com",
+			"details": {
+				"description": [
+					"Sim-Phones is a Web Application that allows people to buy virtual numbers from various countries (Russia, Germany, etc...) to use it in different services, such as: WhatsApp, Facebook, Viber, etc..."
+				],
+				"techDescription": [
+					"This application consists of a Main website, PWA app and a Dashboard",
+					"All Web Services are written in PHP using Slim Framework, the PWA App and Dashboard are developed using Angular."
+				],
+				"tags": [
+					"HTML",
+					"CSS",
+					"PHP",
+					"Slim Framework",
+					"Web APIs",
+					"JavaScript",
+					"Angular",
+					"Firebase Cloud Messaging"
+				],
+				"links": [
+					{
+						"name": "Go to Website",
+						"link": "https://sim-phones.com"
+					},
+					{
+						"name": "Go to App",
+						"link": "https://app.sim-phones.com"
+					}
+				],
+				"screenshots": [
+					"/assets/img/simphones-1.JPG",
+					"/assets/img/simphones-2.JPG",
+					"/assets/img/simphones-3.JPG"
+				]
+			}
+		},
+		{
+			"id": "mms-server",
+			"name": "MMS Server",
+			"tags": "mobile",
+			"languages": "Android Java",
+			"featuredImage": "/assets/img/mmserver-logo.png",
+			"details": {
+				"description": [
+					"An android application which acts as a server for the MMService application.",
+					"This application server handles the operations for sending dollars and days to touch and alfa mobile numbers from the MMService application."
+				],
+				"techDescription": [
+					"This application was written in Java language."
+				],
+				"tags": [
+					"Java",
+					"Android",
+					"Firebase",
+					"Firestore"
+				]
+			}
+		},
+		{
+			"id": "mega-deals",
+			"name": "MegaDeals",
+			"tags": "web",
+			"languages": "Angular / Slim PHP",
+			"featuredImage": "/assets/img/megadeals-logo.png",
+			"link": "https://www.megadeals.world",
+			"details": {
+				"description": [
+					"A website that displays deals from different online stores such as AliExpress."
+				],
+				"techDescription": [
+					"The Web App consists of a Main page and a Dashboard.",
+					"The frontend of the Main page and the Dashboard were developed in Angular and consume Web APIs which are written in PHP using Slim Framework."
+				],
+				"tags": [
+					"HTML",
+					"CSS",
+					"PHP",
+					"Slim Framework",
+					"Web APIs",
+					"JavaScript",
+					"Angular"
+				],
+				"links": [
+					{
+						"name": "Go to Website",
+						"link": "https://www.megadeals.world"
+					}
+				],
+				"screenshots": [
+					"/assets/img/megadeals-1.png",
+					"/assets/img/megadeals-2.png",
+					"/assets/img/megadeals-3.PNG"
+				]
+			}
+		},
+		{
+			"id": "status-saver",
+			"name": "Status Saver",
+			"tags": "mobile",
+			"languages": "Android Java",
+			"featuredImage": "/assets/img/statussaver-logo.png",
+			"details": {
+				"description": [
+					"Status Saver application lets you save photo images and videos from WhatsApp application and it also allows you to share the media directly from the application to your friends."
+				],
+				"techDescription": [
+					"This application was written in Java language and uses third party libraries such as Picasso."
+				],
+				"tags": [
+					"Java",
+					"Android"
+				],
+				"links": [
+					{
+						"name": "Download App",
+						"link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.statussaver"
+					}
+				],
+				"screenshots": [
+					"/assets/img/statussaver-1.png",
+					"/assets/img/statussaver-2.png",
+					"/assets/img/statussaver-3.png"
+				]
+			}
+		},
+		{
+			"id": "domain-finder",
+			"name": "Domain Finder",
+			"tags": "mobile",
+			"languages": "Android Java",
+			"featuredImage": "/assets/img/domainfinder-logo.png",
+			"details": {
+				"description": [
+					"An android application that lets you search for a domain name to check its availability and its price."
+				],
+				"techDescription": [
+					"This application was written in Java language and uses GoDaddy Domains APIs."
+				],
+				"tags": [
+					"Java",
+					"Android",
+					"Retrofit"
+				],
+				"links": [
+					{
+						"name": "Download App",
+						"link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.domainfinder"
+					}
+				],
+				"screenshots": [
+					"/assets/img/domainfinder-1.png",
+					"/assets/img/domainfinder-2.png",
+					"/assets/img/domainfinder-3.png"
+				]
+			}
+		},
+		{
+			"id": "electronic-masbaha",
+			"name": "المسبحة الإلكترونية",
+			"tags": "mobile",
+			"languages": "Android Java",
+			"featuredImage": "/assets/img/electronicmasbaha-logo.png",
+			"details": {
+				"description": [
+					"An android application that lets you count your prayers on phone."
+				],
+				"techDescription": [
+					"This application was written in Java language."
+				],
+				"tags": [
+					"Java",
+					"Android"
+				],
+				"links": [
+					{
+						"name": "Download App",
+						"link": "https://play.google.com/store/apps/details?id=com.adlouniahmad.electronicmasbaha"
+					}
+				],
+				"screenshots": [
+					"/assets/img/electronicmasbaha-1.png",
+					"/assets/img/electronicmasbaha-2.png",
+					"/assets/img/electronicmasbaha-3.png"
+				]
+			}
+		}
+	],
+	"social": [
+		{
+			"name": "facebook",
+			"link": "https://www.facebook.com/adlouni.ahmad/"
+		},
+		{
+			"name": "instagram",
+			"link": "https://www.instagram.com/ahmad_adlouni/"
+		},
+		{
+			"name": "linkedIn",
+			"link": "https://www.linkedin.com/in/adlouni-ahmad/"
+		},
+		{
+			"name": "github",
+			"link": "https://www.github.com/adlouniahmad-dev"
+		}
+	]
 }

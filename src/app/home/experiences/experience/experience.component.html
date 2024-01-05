@@ -1,0 +1,23 @@
+<div class="overlay"></div>
+<div class="container-fluid opacity-half">
+  <div class="row">
+    <div class="col-3 d-none d-md-block">
+      <span class="text-uppercase small d-block mr-2">{{ experience.period }}</span>
+    </div>
+    <div class="col-sm-12 col-md-9">
+      <div class="mb-2">
+        <a class="d-block" [href]="experience.companyLink" target="_blank">{{ experience.position }} · {{ experience.company }}</a>
+        <span class="text-uppercase small d-md-none">{{ experience.period }}</span>
+      </div>
+      
+      <div class="description">
+        <span [innerHTML]="experience.description"></span>
+      </div>
+      <div class="d-flex flex-wrap align-items-center tags mt-2">
+        @for (tag of experience.tags; track tag) {
+          <span class="tag">{{ tag }}</span>
+        }
+      </div>
+    </div>
+  </div>
+</div>

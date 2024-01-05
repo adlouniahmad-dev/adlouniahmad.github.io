@@ -1,25 +1,10 @@
-<section id="portfolio" class="py-5rem">
-  <div class="container">
-    <!-- <div class="row">
-      <div class="col">
-        <h3 class="underline-center text-center" data-aos="fade-down">Portfolio</h3>
-      </div>
-    </div> -->
-    <div class="row mt-4" data-aos="fade-down">
-      <div class="col">
-        <div class="categories d-flex align-items-center justify-content-center">
-          @for (category of categories; track category) {
-            <button type="button" class="category filter-btn" [ngClass]="{'active': category.active}"
-              (click)="filterPortfolioItems(category)">{{ category.name }}</button>
-          }
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container mt-5">
-    <div class="row portfolio-container">
+<section id="projects">
+  <h3 class="section-title">Projects</h3>
+
+  <div>
+    <div class="portfolio-container">
       @for (item of portfolioItems; track item) {
-        <adl-product-item class="col-sm-12 col-md-6 col-lg-4 mb-4 d-none"
+        <adl-product-item
           [ngClass]="{'show-portfolio-item': item.tags.includes(filterValue) || filterValue == '*'}"
           [item]="item"></adl-product-item>
       }

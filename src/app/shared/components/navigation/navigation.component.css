@@ -11,6 +11,11 @@
 .header-menu-link {
 	color: var(--color-secondary);
   font-weight: normal;
+  width: fit-content;
+}
+
+.nav-link {
+  padding: .5rem 0;
 }
 
 .link-name {

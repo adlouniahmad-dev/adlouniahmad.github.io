@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class NavigationComponent {
 
-  links = [
-    { name: 'about me', href: '#about' },
-    { name: 'portfolio', href: '#portfolio' },
-    { name: 'contact me', href: '#contact' }
+  links: Array<{ name: string, href: string }> = [
+    { name: 'about', href: '#about' },
+    { name: 'experience', href: '#experience' },
+    { name: 'projects', href: '#projects' },
   ];
 
 }
