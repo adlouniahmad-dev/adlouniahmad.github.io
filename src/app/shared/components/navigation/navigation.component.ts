@@ -10,7 +10,7 @@ export class NavigationComponent {
   links: Array<{ name: string, href: string }> = [
     { name: 'about', href: '#about' },
     { name: 'experience', href: '#experience' },
-    { name: 'projects', href: '#projects' },
+    // { name: 'projects', href: '#projects' },
   ];
 
 }
