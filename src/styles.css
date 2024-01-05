@@ -9,7 +9,6 @@
 	--color-blue: #114696;
 	--color-light-blue: #164d9d;
 	--color-lighter-blue: #327ce8;
-	
 } */
 
 :root {
@@ -24,6 +23,7 @@
 html,
 body {
 	height: 100%;
+	scroll-behavior: smooth;
 }
 
 body {
