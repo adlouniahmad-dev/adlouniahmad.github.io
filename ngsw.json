@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1704143656542,
+  "timestamp": 1704479680482,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.761440059ae27cf51355.js",
+        "/main.08e8f73e67e4d900.js",
         "/manifest.webmanifest",
-        "/polyfills.8a842d8d8b917bf59410.js",
-        "/runtime.acf0dec4155e77772545.js",
-        "/scripts.abfb24f97dabec532960.js",
-        "/styles.45eedaea2c949e2c555d.css"
+        "/polyfills.052def28e9f8e505.js",
+        "/runtime.30ba585ea0d67f37.js",
+        "/scripts.9e1a100e775344c8.js",
+        "/styles.c96fc22a99b88ea3.css"
       ],
       "patterns": []
     },
@@ -121,13 +121,13 @@
     "/assets/img/statussaver-logo.png": "547b7f733159183d3a8a13a5521208790a97f331",
     "/assets/js/script.js": "f155a06b8aec77878bdedb1e20c03b01a0c1e102",
     "/favicon.ico": "67a98d36a750454d375c8492c944e3f91c6419f5",
-    "/index.html": "e4c06fb029c8eccdfa42b3d40293261f560f11e5",
-    "/main.761440059ae27cf51355.js": "7a9e67dc61b75ec7706b65606d2957f04e658002",
+    "/index.html": "66edc89bc4d80866132727254881f5e9837c4180",
+    "/main.08e8f73e67e4d900.js": "10e515c0db0e6a8b2f14e4b83004d26d2bdcf974",
     "/manifest.webmanifest": "021d1da33f6ea9907852d38242dd03329cd7ce15",
-    "/polyfills.8a842d8d8b917bf59410.js": "dbc502f030c7bb83c7caa1feee7aff990831f7d9",
-    "/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/scripts.abfb24f97dabec532960.js": "ba5f21dd04f15ebde917fbc838cba97b42e7b017",
-    "/styles.45eedaea2c949e2c555d.css": "cbb1522aa3a22f5aed8a753cb13ec1b1d724a1c4"
+    "/polyfills.052def28e9f8e505.js": "5494fa892fad5896d3d164354ca368d43b68a0d4",
+    "/runtime.30ba585ea0d67f37.js": "616cc5cab6aea0a518fc7a1efefd42133aa4aa12",
+    "/scripts.9e1a100e775344c8.js": "d8e9036eb6caaac14f1a0e876d26f88a09d33e6e",
+    "/styles.c96fc22a99b88ea3.css": "1222b5e0ccec704578a42b924615c9060d3103e4"
   },
   "navigationUrls": [
     {
@@ -146,5 +146,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }
