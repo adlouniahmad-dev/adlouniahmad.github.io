@@ -18,7 +18,7 @@ a {
 	font-size: 20px;
 	position: relative;
 	transition: color .3s;
-	color: var(--color-primary);
+	color: var(--color-light-orange);
 }
 
 .icon-item.facebook:hover {
