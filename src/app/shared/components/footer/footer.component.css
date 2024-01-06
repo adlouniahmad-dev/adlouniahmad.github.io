@@ -28,3 +28,7 @@ a {
 .icon-item.linkedIn:hover {
 	color: #2867B2;
 }
+
+.icon-item.github:hover {
+	color: #fff;
+}
