@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1716148871224,
+  "timestamp": 1717793088038,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -119,7 +119,7 @@
     "/assets/img/statussaver-3.png": "3c69598f8a2f73f0a685048dae79119a45a1c416",
     "/assets/img/statussaver-logo.png": "547b7f733159183d3a8a13a5521208790a97f331",
     "/favicon.ico": "67a98d36a750454d375c8492c944e3f91c6419f5",
-    "/index.html": "56ff4dcfa48df196181e4730c15f97bde39b287b",
+    "/index.html": "fc758d4d5e06e62caca432df08ed13e5108a2712",
     "/main.dfa1f031a77f66ef.js": "679aae75a697e3b9f84d069fc09847b85721d887",
     "/manifest.webmanifest": "021d1da33f6ea9907852d38242dd03329cd7ce15",
     "/polyfills.052def28e9f8e505.js": "5494fa892fad5896d3d164354ca368d43b68a0d4",
